@@ -2,7 +2,7 @@ print("Którą jednostkę temperatury chcesz skonwertować? \n 1. St. Celsjusza 
 choose=int(input("Wpisz 1 lub 2: "))
 list=[1,2]
 while choose not in list:
-    print("Nieprawidłowy wybór, wpisz 1 lub 2")
+    print("Nieprawidłowy wybór,  wpisz 1 lub 2")
     choose=int(input("Wpisz 1 lub 2: "))
 else:
     print(f"Wybrałeś: {choose}")

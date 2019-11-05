@@ -5,7 +5,6 @@ num=str(input("Podaj dowolną liczbę binarną:  "))
 binnary = str(num)
 rev=(binnary[::-1])
 a = 0
-print(rev)
 
 for x, d in enumerate(rev):
       if d == "1":

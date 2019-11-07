@@ -1,4 +1,4 @@
-lista = ["1111", "1111111111111", "111", "222", "222", "33333333333333333","zajebiście!"]
+lista = ["1111", "1111111111111", "111", "222", "222", "33333333333333333","hurrrraaaaaa!"]
 #print(type(lista[0]))
 #print(lista)
 no_elements=len(lista) # ile lista ma elementów (liczba column)

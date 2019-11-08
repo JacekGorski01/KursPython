@@ -1,7 +1,7 @@
 def menu_builder(file_list,line):
     '''Show selected line without reading all lines in file
 
-    This is form purpose of "multitool" script. Point line in a file you want to add to menu.
+    This is for purpose of "multitool" script. Point line in a file you want to add to menu.
     String slicing has been done due to my own text formating in a file
 
     Parameters:

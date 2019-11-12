@@ -1,3 +1,5 @@
+#Przedstawienie pierwszej i ostatniej cyfry podanej liczby.
+
 from whatnext import start_other_module
 
 print("\n*** To jest program do przedstawienia pierwszej i ostatniej cyfry podanej liczby ***\n")

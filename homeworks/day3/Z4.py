@@ -1,3 +1,5 @@
+#Zamiana liczb bin na dec
+
 from whatnext import start_other_module
 
 print("\n*** To jest program do zamieniania liczb bin na dec ***\n")

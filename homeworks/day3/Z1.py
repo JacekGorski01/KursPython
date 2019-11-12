@@ -1,3 +1,5 @@
+#Przeliczanie temperatur
+
 from whatnext import start_other_module
 
 print("\n*** To jest program do przeliczania temperatur st.\u2103 na st.\u2109 lub odwrotnie. ***\n")

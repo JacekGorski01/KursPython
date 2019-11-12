@@ -1,3 +1,5 @@
+#Sprawdzanie czy podany rok jest przestępny
+
 from whatnext import start_other_module
 
 print("\n*** To jest program do sprawdzania czy podany rok jest przestępny ***\n")

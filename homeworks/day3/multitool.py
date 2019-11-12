@@ -1,9 +1,9 @@
 import random
 from create_menu import menu_builder
 
-menu_builder(["Z1.py", "Z2.py", "Z3.py", "Z4.py", "Z5.py"], 3)
+menu_builder(["Z1.py", "Z2.py", "Z3.py", "Z4.py", "Z5.py"], 1)
 
-choice = input("\nWybierz program (1-10,"R","Q"): ")
+choice = input('\nWybierz program (1-10,"R","Q"): ')
 #sprawdzenie poprawności wyboru
 right_values = ["1", "2", "3", "4", "5", "Q", "R"]
 

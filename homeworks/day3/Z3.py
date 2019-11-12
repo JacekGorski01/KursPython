@@ -1,3 +1,5 @@
+#Rysowanie prostokąta
+
 from whatnext import start_other_module
 
 print("\n*** To jest program do rysowania prostokąta o zadanych wymiarach ***\n")

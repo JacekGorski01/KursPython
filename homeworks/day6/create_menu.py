@@ -1,5 +1,3 @@
-
-
 def menu_builder(file_list,line):
     '''It is for building menu from external text file.
     You can either create mnu from single text file (each line of menu has to be single line in file)

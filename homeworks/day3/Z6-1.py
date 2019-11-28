@@ -1,13 +1,13 @@
 lista = ["1111", "1111111111111", "111", "222", "222", "33333333333333333","hurrrraaaaaa!"]
 #print(type(lista[0]))
 #print(lista)
-no_elements=len(lista) # ile lista ma elementów (liczba column)
+no_elements = len(lista) # ile lista ma elementów (liczba column)
 #print(no_elements)
-longest=max(lista, key=len) #żeby zawsze była ta sama szerokość musi byc znany najdłuższy element
-maxlong=(len(longest))
+longest = max(lista, key = len) #żeby zawsze była ta sama szerokość musi byc znany najdłuższy element
+maxlong = (len(longest))
 #maksymalna długość stringa z listy
-if maxlong>10:
-    maxlong=10
+if maxlong > 10:
+    maxlong = 10
 else:
     pass
 

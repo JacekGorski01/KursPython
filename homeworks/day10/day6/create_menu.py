@@ -1,4 +1,3 @@
-import random
 def menu_builder(file_list,line):
     '''It is for building menu from external text file.
     You can either create mnu from single text file (each line of menu has to be single line in file)
@@ -32,28 +31,6 @@ def menu_builder(file_list,line):
                 for j in range(line):
                     line_content = file.readline()
                     print(f"({j + 1}) {line_content}")
-
     print("(R) Wylosuj za mnie\n\n(Q) Wyjdź z WIELO NARZĘDZIA")
 
-    right_values = ["Q", "R", "M"]
-    for i in range(1,line+1):
-        right_values.append(str(i))
-
-    choice = input(f'\nWybierz program (1-{line},"R","Q"): ')
-    while choice not in right_values:
-        print(f'Nieprawidłowy wybór, wpisz liczbę w przedziale 1-{line}, "R" lub "Q": ')
-        choice = input(f"\nWybierz program (1-{line}): ")
-
-    print(f"Wybrałeś: {choice}")
-
-    if choice == "R":
-        choice = random.choice(right_values[3:line+3])  # wykluczam by nie wylosowało się ponownie R
-        print(f"Wylosowałęś opcję {choice}")
-
-    elif choice == "Q":
-        print("Do zobaczenia!")
-        exit(5)
-
-
-    return str(choice)
 

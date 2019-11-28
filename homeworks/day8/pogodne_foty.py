@@ -60,6 +60,10 @@ def pic_from_web_tool(page, conv_to_size):
     total_size_diff = size_before - size_after
 
 
-    return size_before, size_before, total_size_diff, img_count, img_count_downloaded
+    return size_before, size_after, total_size_diff, img_count, img_count_downloaded
 
+url = "https://wallpaperlist.com"
+px = 64
 
+x=pic_from_web_tool(url, px)
+print(x)

@@ -9,9 +9,6 @@ from datetime import datetime
 #w ramach klasy. Teraz słownik pobrany z pliku przekazuje z "zewnątrz" przy powołaniu instancji np "user_insert = Insert(entries = entries)"
 #
 
-
-
-
 class Insert():
 
     def __init__(self, entries):
